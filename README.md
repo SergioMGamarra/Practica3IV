@@ -17,7 +17,9 @@ Por otra parte probaré dos distribuciones diferentes de Ubuntu Server, la 12.04
 
 Para tener todos los datos relativos a la práctica y conocer con profundida todos sus componentes debemos saber primeramente que es una biblioteca digital, definiéndola como:
 
-    Colección de objetos digitales, estructurados según un esquema conceptual que garantice su integridad y los métodos de gestión y consulta mas eficientes para el público al que va dirigido, tomando como base una biblioteca tradicional y ampliando sus funcionalidades mediante el uso de software específico.
+    Colección de objetos digitales, estructurados según un esquema conceptual que garantice su integridad y los
+    métodos de gestión y consulta mas eficientes para el público al que va dirigido, tomando como base una biblioteca
+    tradicional y ampliando sus funcionalidades mediante el uso de software específico.
     
 Es decir, es un conjunto de objetos digitales que a través de un software específico, en este caso GreenStone, es provisto de servicios para facilitar la utilización a los usuarios.
 
