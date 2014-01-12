@@ -22,4 +22,11 @@ Para tener todos los datos relativos a la práctica y conocer con profundida tod
     tradicional y ampliando sus funcionalidades mediante el uso de software específico.
     
 Es decir, es un conjunto de objetos digitales que a través de un software específico, en este caso GreenStone, es provisto de servicios para facilitar la utilización a los usuarios.
+La biblioteca digital que se usará forma parte de una práctica de la asignatura Gestión de Recursos Digitales, y contiene videos procedentes de Youtube, con licencia Creative Commons, relativos a temas de programación.
+
+## Preparación de las máquinas virtuales
+
+Partiré inicialmente de dos máquinas virtuales, con las dos versiones de Ubuntu Server antes mencionadas. Para ello le asignaré a cada una suficientes recursos para que la instalación sea rápida. Una vez creadas e instaladas las versiones de Ubuntu Server el primer paso que llevaré a cabo será instalar apache, que es el servicio en el que se basa GreenStone.
+
+
 
