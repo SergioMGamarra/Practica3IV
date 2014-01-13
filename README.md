@@ -35,7 +35,11 @@ Para montar la aplicación lo primero que haré será importar la base de datos 
 
 ![ImportaBaseDatos](https://github.com/SergioMGamarra/Practica3IV/blob/master/capturas/IMPORTDB.png?raw=true)
 
-Una vez importada la base de datos modificaremos los archivos de configuración de la base de datos para que nuestra aplicación pueda acceder de forma correcta a la base de datos. Una vez esta todo montado en la máquina virtual vamos a proceder al diseño y las pruebas de las máquinas virtuales
+Una vez importada la base de datos modificaremos los archivos de configuración de la base de datos para que nuestra aplicación pueda acceder de forma correcta a la base de datos. Quedará todo configurado y funcionando:
+
+![WebFuncionando](https://github.com/SergioMGamarra/Practica3IV/blob/master/capturas/periodicoFuncionando.png?raw=true)
+
+Una vez esta todo montado en la máquina virtual vamos a proceder al diseño y las pruebas de las máquinas virtuales.
 
 
 ## Configuración de las máquinas virtuales
@@ -78,16 +82,21 @@ Para medir el rendimiento de cada máquina virtual lo que utilizaré será el be
 
 Para los resultados de las pruebas se tendrán en cuenta dos cosas, el tiempo que invierte cada configuración en llevar a cabo todas las medidas, y además haré la media de las peticiones que se llevan a cabo por segundo, ya que es una medida muy significativa del rendimiento. Dichos datos se sacarán de los resultados del benchmark como se vé en la siguiente captura:
 
-
+![Medidas](https://github.com/SergioMGamarra/Practica3IV/blob/master/capturas/Medidas.png?raw=true)
 
 Lo resultados son los siguientes:
 
+![resultados](https://github.com/SergioMGamarra/Practica3IV/blob/master/capturas/resultados.png?raw=true)
 
 A partir de esto resultados se han creado gráficas para visualizar de forma más intuitiva de los resultados
 
 - Primera Medida
 
+![Medida1](https://github.com/SergioMGamarra/Practica3IV/blob/master/capturas/GraficaMed1.png?raw=true)
+
 -Segunda Medida
+
+![Medida2](https://github.com/SergioMGamarra/Practica3IV/blob/master/capturas/graficaMed2.png?raw=true)
 
 -Tercera Medida
 
