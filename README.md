@@ -76,9 +76,31 @@ Para medir el rendimiento de cada máquina virtual lo que utilizaré será el be
     
 # Resultados
 
-Para los resultados de las pruebas se tendrán en cuenta dos cosas, el tiempo que invierte cada configuración en llevar a cabo todas las medidas, y además haré la media de las peticiones que se llevan a cabo por segundo, ya que es una medida muy significativa del rendimiento. Lo resultados son los siguientes:
+Para los resultados de las pruebas se tendrán en cuenta dos cosas, el tiempo que invierte cada configuración en llevar a cabo todas las medidas, y además haré la media de las peticiones que se llevan a cabo por segundo, ya que es una medida muy significativa del rendimiento. Dichos datos se sacarán de los resultados del benchmark como se vé en la siguiente captura:
 
 
+
+Lo resultados son los siguientes:
+
+
+A partir de esto resultados se han creado gráficas para visualizar de forma más intuitiva de los resultados
+
+- Primera Medida
+
+-Segunda Medida
+
+-Tercera Medida
+
+
+Como se puede ver las configuraciones más lentas son las que hemos configurado con un procesador, dentro de estas dos podemos ver como la que tiene menor RAM asignada es un poco mas lenta; por otra parte tenemos que la configuración más rápida es la quinta configuración, la que tiene asignada 3 procesadores. En la parte media las dos configuraciones con 2 núcleos obtienen buenos resultados respecto a las que tan sólo tienen asignados 1 núcleo, con resultados parecidos pero con opción 4 (la que tiene asiganada 1024MB) un poco más eficienciente que la que tiene asginada 512 MB.
+
+Por otra parte vamos a presentar un dato que es muy significativo en cuanto a la eficiencia:
+
+- Medias de peticiones/segundo
+
+
+
+Como se puede ver en la gráfica y coincidiendo con las conclusiones anteriores la configuración que más peticiones puede resolver por segundo es la configuración 5, mientras que la menos eficiente es la configuración que encontramos con un procesador y 512MB.
 
 
 
