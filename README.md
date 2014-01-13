@@ -33,7 +33,7 @@ Como iba diciendo voy a proceder a clonar el repositorio con el código del peri
 Una vez clonado borraré los archivos que no sean necesarios y me quedaré con el código.
 Para montar la aplicación lo primero que haré será importar la base de datos desde la interfaz web de phpmyadmin, accediendo con la IP de la máquina virtual /phpmyadmin:
 
-![ImportaBaseDatos](https://github.com/SergioMGamarra/Practica3IV/blob/master/capturas/IMPORTDB.png)
+![ImportaBaseDatos](https://github.com/SergioMGamarra/Practica3IV/blob/master/capturas/IMPORTDB.png?raw=true)
 
 Una vez importada la base de datos modificaremos los archivos de configuración de la base de datos para que nuestra aplicación pueda acceder de forma correcta a la base de datos. Una vez esta todo montado en la máquina virtual vamos a proceder al diseño y las pruebas de las máquinas virtuales
 
