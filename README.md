@@ -4,6 +4,9 @@ Practica3IV
 # Práctica 3 IV Diseño de máquinas virtuales
 # Sergio Muñoz Gamarra
 
+## Licencia
+
+GNU GENERAL PUBLIC LICENSE Version 3
 
 ## Introducción
 
@@ -113,6 +116,6 @@ Por otra parte vamos a presentar un dato que es muy significativo en cuanto a la
 
 Como se puede ver en la gráfica y coincidiendo con las conclusiones anteriores la configuración que más peticiones puede resolver por segundo es la configuración 5, mientras que la menos eficiente es la configuración que encontramos con un procesador y 512MB.
 
-
+Enlace al documento con los resultados: [Resultados](https://github.com/SergioMGamarra/Practica3IV/blob/master/medidasIVPrac3.pdf)
 
     
