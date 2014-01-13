@@ -1,0 +1,86 @@
+/* 
+    Document   : estilo
+    Created on : 29-abr-2013, 18:18:19
+    Author     : sergio
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#body {
+    background-color: black;
+}
+
+
+#titulo {
+    color: darkorange;
+    font-size: 150%;
+}
+
+#ImagenTitulo {
+    width: 90%;
+}
+
+div.cae_texto {
+    float: left;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    line-height: 0px;
+    color: transparent;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 300;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+div.cae_texto:hover {
+    text-align: center;
+    color: #575858;
+}
+div.cae_texto img{
+    float: left;
+}
+#caer:hover{
+    color:darkorange;
+    text-align: center;
+    margin-left: 40%;
+}
+#caer{
+    color:darkorange;
+    text-align: center;
+    width: 90%;
+    margin-left: 40%;
+}
+
+#social-icons {
+    width: 5%;
+    float: right;
+}
+
+#flecha {
+    width: 90%;
+    float: left;
+    text-align: center;
+}
+
+#comoSeHizo {
+    color: goldenrod;
+    width: 90%;
+    float: left;
+    text-align: center;
+}
+
+
+#comoSeHizo:hover {
+    color: goldenrod;
+    width: 90%;
+    float: left;
+    text-align: center;
+}

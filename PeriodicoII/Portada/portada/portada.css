@@ -1,0 +1,336 @@
+/* 
+    Document   : portada
+    Created on : 30-abr-2013, 10:15:24
+    Author     : sergio
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+img {
+    display: block;
+    margin: auto;
+}
+
+
+#publicidadIzquierda {
+    width: 15%;
+    float: left;    
+}
+
+#publicidadIzquierda img {
+    width: 99%;
+}
+
+#publicidadDerecha {
+    width: 15%;
+    float: right;
+}
+
+#publicidadDerecha img {
+    width: 99%;
+}
+
+#seccionCentral {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#body {
+    background-color: black;
+}
+
+#publicidadSuperior{
+    width: 100%;
+}
+
+#publicidadSuperior img {
+    width: 100%;
+}
+
+div.aumenta_imagen a{
+    float:left;
+    height: 10%;
+    width: 95%;
+    margin: 15px;
+    font-family: WearetrippinShort,Helvetica,"Helvetica Neue",Arial,sans-serif;
+    color: goldenrod;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+div.menu :hover {
+    height: 12%;
+    font-size: 120%;
+    width: 100%;
+    margin-left: -30px;
+}
+
+#logo {
+    float: left;
+    width: 10%;
+    height: 10%;
+}
+
+#barraMenu {
+    float:left;
+    width: 100%;
+}
+
+#Etiquetas{
+    float: right;
+    width: 100%;
+    height: 15%;
+}
+
+.etiqueta{
+    float:left;
+    width: 25%;
+    line-height: 5%;
+}
+small {
+    color: #C7A04A;
+    font-family: ClarendonBT-Light,Helvetica,"Helvetica Neue",Arial,sans-serif;
+    font-size: 75%;
+    line-height: 12px;
+    width: 100%;
+    float: left;
+}
+
+a.itemA {
+    font:bold 150% "Trebuchet MS"; 
+    color: white;
+    font-weight: 100;
+    width: 100%;
+    float: left;
+}
+
+a.itemA:hover {
+    font:bold 190% "Trebuchet MS"; 
+    color: white;
+    font-weight: 100;
+    width: 100%;
+    float: left;
+}
+
+
+#banner {
+    margin-top: 3%;
+    width: 100%;
+}
+
+#seccionIzquierda {
+    width: 58%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+#seccionDerecha {
+    width: 40%;
+    float: right;
+    margin-bottom: 3%;
+}
+
+.presentacion {
+    border-bottom: 1px solid #333;
+    color: #c7a04a;
+    font-size: 80%;
+}
+
+.cuerpoNoticia {
+    color: #7c7c7c;
+}
+
+.tituloNoticia {
+    text-transform: uppercase;
+    font-family: WearetrippinShort,Helvetica,"Helvetica Neue",Arial,sans-serif;
+    font-size: 100%;
+    color: #c7a04a;
+}
+
+.articulo {
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 100%;
+}
+
+.presentacionII {
+    border-bottom: 1px solid #333;
+    color: #c7a04a;
+    font-size: 80%;
+    margin-top: 7%;
+}
+
+img {
+    width: 100%;
+}
+
+#articuloMundoToday {
+    background: darkorange;
+}
+
+#tituloMundoToday {
+    text-transform: uppercase;
+    font-family: WearetrippinShort,Helvetica,"Helvetica Neue",Arial,sans-serif;
+    font-size: 100%;
+    color: black;
+}
+
+#presentacionMundoToday {
+    text-align: center;
+    border-bottom: 1px solid #333;
+    font-size: 80%;
+    color: white;
+}
+
+#MundoToday {
+    width: 90%;
+    margin: 0 auto;
+    height: 90%;
+}
+
+
+footer {
+    background-image:url('../img/footer.png');
+    width: 100%;
+    height: 5cm;
+    margin: 0 auto;
+    float: left;
+}
+
+#footerIzquierda {
+    float: left;
+    width: 50%
+}
+#footerDerecha {
+    float: right;
+    width: 50%
+}
+
+.tituloNoticia {
+    text-transform: uppercase;
+    font-family: WearetrippinShort,Helvetica,"Helvetica Neue",Arial,sans-serif;
+    font-size: 100%;
+    color: #c7a04a;
+
+}
+
+.presentacionFooter {
+    border-bottom: 1px solid #333;
+    color: #c7a04a;
+    font-size: 80%;
+    text-align: center;
+}
+
+.tituloNoticiaFooter {
+    text-transform: uppercase;
+    font-family: WearetrippinShort,Helvetica,"Helvetica Neue",Arial,sans-serif;
+    font-size: 100%;
+    color: #c7a04a;
+    text-align: center;
+}
+
+#suscripcion {
+    width: 40%;
+    margin-top: 3%;
+}
+
+#social-icons {
+
+}
+
+#epic {
+    width: 100%;
+}
+
+.iniciarSesion {
+    width: 100%;
+    float: right;
+    color: #7c7c7c;
+    border: #C7A04A solid thin;
+    border-bottom: 1000px;
+}
+
+#noticiasUltimaHora {
+    margin-top: 4%;
+    width:100%;
+    height: 300px;
+    overflow: auto;
+    border: #C7A04A solid medium;
+    float: right;
+    margin-bottom: 4%;
+}
+
+.tituloNoticiaScroll {
+    text-transform: uppercase;
+    font-family: WearetrippinShort,Helvetica,"Helvetica Neue",Arial,sans-serif;
+    font-size: 100%;
+    color: #c7a04a;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.cuerpoNoticiaScroll {
+    color: #7c7c7c;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98%;
+}
+
+.articuloScroll {
+    margin-top: 5%;
+    margin-left: 2%;
+    width: auto;
+    border-bottom: white solid thin;
+}
+
+.fechaUltimaHora {
+    border-bottom: 1px solid #333;
+    color: white;
+    font-size: 80%;
+    margin-top: 7%;
+}
+
+.bienvenida{
+    color: white;
+    width: 80%;
+    float:left;
+}
+
+
+/* Para admin.php */
+
+#SeccionInicio {
+    width: 100%;
+    float: left;
+}
+
+.inputInicioSesion {
+    color: #7c7c7c;
+    text-align: left;
+    width: 24%;
+}
+
+.inputNoticias {
+    width: 75%;
+    float: right;
+}
+
+.sectionInicioSesion {
+    text-align: center;
+    width: 50%;
+}
+
+.sectionform {
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+}
+
+.botonEnviar {
+    width: 100%;
+    float: right;
+    margin-top: 5%;
+}

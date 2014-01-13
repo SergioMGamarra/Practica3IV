@@ -1,0 +1,125 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario suscripción - New for Dummies</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="formulario.css"/>
+        <link href='../Portada/img/icono.png' rel='shortcut icon' type='image/png'>
+    </head>
+
+    <body id="body">
+        <section id="publicidadIzquierda">
+            <a href="http://www.nespresso.com/">
+                <img src="../Portada/img/banner-izq.jpg"/>
+            </a>
+        </section>
+        <section id="publicidadDerecha">
+            <a href="http://www.nespresso.com/">
+                <img src="../Portada/img/banner-izq.jpg"/>
+            </a>
+        </section>
+        <section id="seccionCentral">
+            <a href="http://www.epic.net/">
+                <img id="epic" src="../Portada/img/imagenEpic.jpg">
+            </a>
+            <section id="barraMenu">
+                <section id="Etiquetas">
+                    <ul>
+                        <li class="etiqueta">
+                            <small>Locales</small>
+                            <a class="itemA" href="../Secciones/Nacional/nacional.html">
+                                NACIONAL
+                            </a>
+                        </li>
+                        <li class="etiqueta">
+                            <small>Actualidad</small>
+                            <a class="itemA" href="../Secciones/Mundiales/recientes.html">
+                                MUNDIAL
+                            </a>
+                        </li>
+                        <li class="etiqueta">
+                            <small>Noticias</small>
+                            <a class="itemA" href="../Secciones/Deportes/deportes.html">
+                                DEPORTES
+                            </a>
+                        </li>
+                        <li class="etiqueta">
+                            <small>Ayudanos</small>
+                            <a class="itemA" href="../Secciones/Contacto/contacto.html">
+                                CONTACTO
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <a href="../Portada/portada/portada.php">
+                <img id="banner" src="../Portada/img/banner.png"/>
+            </a>
+            <fieldset>
+                <legend class="tituloNoticia">Formulario de inscripción</legend>
+                <form method="post" action="">
+                    <section class='divIzq'>
+                        <p class="input">Nombre: <input name="Nombre" type="text" placeholder="Nombre" required="true"/></p>
+                        <p class="input">Apellidos: <input name="Apellidos" type="text" placeholder="Apellidos" required="true"/></p>
+                        <p class="input">Fecha nacimiento: <input name="Nacimiento" type="date" required="true"/></p>
+                        <p class="input">Sexo:    Mujer <input type = "radio" id = "radioMujer" name="Menu" checked/> Hombre<input type = "radio" id = "radioHombre" name="Menu"/></p>
+                        <p class="input">¿Estudiante de la UGR?: <input name="UGR" type="checkbox"/></p>
+                    </section> 
+                    <section class='divDer'>
+                        <p class="input">Dirección: <input name="Direccion" type="text" placeholder="Dirección" required="true"/></p>
+                        <p class="input">Población: <input name="Poblacion" type="text" placeholder="Población" required="true"/></p>
+                        <p class="input">Provincia: <input name="Provincia" type="text" placeholder="Provincia" required="true"/></p>
+                        <p class="input">Email: <input name="Email" type="email" placeholder="Email" required="true"/></p>
+                        <p class="input">Teléfono: <input name="Telefono" type="tel" placeholder="Telefono" required="true"/></p>
+                    </section>
+                    <p class="inputMedio" id="desplegable"> ¿Cuál es tu banco actualmente?: 
+                        <datalist id="bancos"> 
+                            <option value="Santander">Santander</option>
+                            <option value="BBVA">BBVA</option>
+                            <option value="Sabadell">Sabadell</option>
+                            <option value="Bankinter">Bankinter  </option>
+                            <option value="Caixa"> Caixa </option>
+                            <option value="Unicaja"> Unicaja </option>
+                            <option value="BMN"> BMN </option>
+                            <option value="Otro"> Otro </option>
+                        </datalist>
+                        <label for="campoDeTexto1"> </label>
+                        <input type="text" id="campoDeTexto1" list="bancos">
+                    </p>
+                    <section class='divIzq'>
+                        <p class="input">Número tarjeta <input name="Tarjeta" type="text" required="true"/></p>
+                    </section> 
+                    <section class='divDer'>
+                        <p class="input">Cód. seguridad <input name="Seguridad" type="password" required="true"/></p>
+                    </section>
+                    <section id="boton">
+                        <input type = "submit" id = "button1" value = "Procesar datos"/> 
+                        <input type = "reset" id = "button2" value = "Reiniciar formulario" /> 
+                    </section>
+                </form>
+            </fieldset>
+            <p class="input">*El precio de la suscripción es de 0.99€ al mes, impuestos incluidos</p>
+        </section>
+        <footer>
+            <section id="footerIzquierda">
+                <p class="tituloNoticiaFooter">Contacto</p>
+                <p class="presentacionFooter"> Epic Agent S.L</p>
+                <address class="presentacionFooter">
+                    C/Cañaveral nº5
+                    Granada
+                </address>
+                <p class="presentacionFooter">(958) 402030</p>
+            </section>
+            <section id="footerDerecha">
+                <!--section id="social-icons">
+                    <a href="http://feeds.feedburner.com/YOUR_FEED_URL"><img src="../img/flickr.png" width="48" height="48" alt="RSS" /></a>
+                    <a href="http://www.linkedin.com/in/YOUR_DISPLAY_NAME"><img src="../img/linkedin.png" width="48" height="48" alt="LinkedIn" /></a>
+                    <a href="http://www.facebook.com/YOUR_FB_IDENTIFIER"><img src="../img/facebook.png" width="48" height="48" alt="Facebook" /></a>
+                </section-->
+            </section>
+        </footer>
+    </body>

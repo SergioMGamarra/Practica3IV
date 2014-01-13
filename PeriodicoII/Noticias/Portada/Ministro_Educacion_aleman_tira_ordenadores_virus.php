@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>El Ministerio de Educación alemán tira a la basura 190.000€ en ordenadores porque tenían virus - WorldNews </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="../noticias.css"/>
+    </head>
+
+    <body id="body">
+        <section id="publicidadIzquierda">
+            <a href="http://www.ideal.es/">
+                <img src="../../Portada/img/banner-izq.jpg"/>
+            </a>
+        </section>
+        <section id="publicidadDerecha">
+            <a href="http://www.ideal.es/">
+                <img src="../../Portada/img/banner-izq.jpg"/>
+            </a>
+        </section>
+        <section id="seccionCentral">
+            <a href="http://www.epic.net/">
+                <img id="epic" src="../../Portada/img/imagenEpic.jpg">
+            </a>
+            <section id="barraMenu">
+                <section id="Etiquetas">
+                    <ul>
+                        <li class="etiqueta">
+                            <small>Locales</small>
+                            <a class="itemA" href="../../Secciones/Nacional/nacional.html">
+                                NACIONAL
+                            </a>
+                        </li>
+                        <li class="etiqueta">
+                            <small>Actualidad</small>
+                            <a class="itemA" href="../../Secciones/Mundiales/recientes.html">
+                                MUNDIAL
+                            </a>
+                        </li>
+                        <li class="etiqueta">
+                            <small>Noticias</small>
+                            <a class="itemA" href="../../Secciones/Deportes/deportes.html">
+                                DEPORTES
+                            </a>
+                        </li>
+                        <li class="etiqueta">
+                            <small>Ayudanos</small>
+                            <a class="itemA" href="../../Secciones/Contacto/contacto.html">
+                                CONTACTO
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="../../Portada/portada/portada.php">
+                        <img id="banner" src="../../Portada/img/banner.png"/>
+                    </a>                
+                </section>
+            </section>
+            <section id="NoticiaSeccionIzquierda">
+                <article class="Secciones">
+                    <p id="Seccion">NACIONAL</p>
+                </article>
+                <article class="Secciones">
+                    <p id="tituloNoticia">El Ministerio de Educación alemán tira a la basura 190.000€ en ordenadores porque tenían virus</p>
+                    <img src="imagenes/virus.jpg"/>
+                    <p id="descripcionImagen">Imagen virus</p>
+                    <p class="cuerpoNoticia">
+                        No hay como tener dinero para solucionar los problemas sin perder el tiempo en buscar un remedio. ¿Que el ordenador está infectado con más virus que la mona de “Estallido”? Pues se tira el ordenador y se compra uno nuevo. Y si son 170 ordenadores pues también, ¿será por dinero?
+                    </p>
+                    <p class="cuerpoNoticia">
+                        Drástica la solución que ha tomado el Ministerio alemán para desembarazarse de un lote de equipos informáticos atacados por el virus Confliker: a la basura con ellos.
+                    </p>
+                    <p class="cuerpoNoticia">
+                        Menos mal que hay algo de cordura por la zona y el Tribunal Estatal de Meclekmburgo-Pomerania Occidental ha dictaminado que dicha medida “no se adecua a los criterios de eficiencia y economía” que deberían regir el comportamiento de la Administración.
+                    </p>
+                    <p class="cuerpoNoticia">  
+                        Al parecer los equipos pertenecientes a un instituto de la localidad de Schweri presentaban tal nivel de proliferación de virus informáticos que no solo hacían inmanejables los ordenadores sino que resultaba prácticamente imposible proceder a una desinfección. O por puntualizar, podía llevarse a cabo pero a cambio de una importante cantidad. Se encargó a una empresa especializada un estudio y cifró el coste en 130.000€.
+                    </p>
+                    <p class="cuerpoNoticia">
+                        Finalmente la decisión fue salvar únicamente el servidor a cambio de 35.000€ y el resto de ordenadores directamente se desecharon procediendo a adquirirse nuevo material que sustituyese a los infectados.
+                    </p>
+                    <p class="cuerpoNoticia">
+                        La decisión del Tribunal obliga al Ministerio a someter su equipamiento informático a la debida supervisión para evitar que en el futuro se repita una circunstancia similar.
+                    </p>
+                </article>
+            </section>
+            <section id="NoticiaSeccionDerecha">
+                <p class="titulosubmenu">Contrasta la información</p>
+                <article id="contrastaInfo">
+                    <ul>
+                        <li>
+                            <a href="http://www.larazon.es/detalle_normal/noticias/2098343/economia/toxo-y-mendez-exigen-al-gobierno-que-el-empleo#.UYFuFNdGkR8">La Razón</a>
+                        </li>
+                        <li>
+                            <a href="http://economia.elpais.com/economia/2013/05/01/agencias/1367372123_615349.html"> El País </a>
+                        </li>
+                        <li>
+                            <a href="http://www.elconfidencial.com/economia/2013/05/01/toxo-y-mendez-reclaman-un-pacto-nacional-que-saque-a-espana-de-la-recesion-120040/"> El Confidencial </a>
+                        </li>
+                        <li>
+                            <a href="http://www.abc.es/economia/20130501/abci-ccoo-pacto-crisis-201305011210.html"> ABC </a>
+                        </li>  
+                        <li>
+                            <a href="http://www.elmundo.es/elmundo/2013/04/30/economia/1367347898.html"> El Mundo </a>
+                        </li>
+                    </ul>
+                </article>
+                <br/>
+                <p class="titulosubmenu">Relacionadas</p>
+                <article id="Relacionadas">
+                    <ul>
+                        <li>
+                            <a href="http://www.larazon.es/detalle_normal/noticias/2098343/economia/toxo-y-mendez-exigen-al-gobierno-que-el-empleo#.UYFuFNdGkR8">Toxo y Méndez exigen al Gobierno que el empleo sea su prioridad </a>
+                        </li>
+                        <li>
+                            <a href="http://economia.elpais.com/economia/2013/05/01/agencias/1367372123_615349.html"> Los sindicatos reclaman un gran pacto ante la emergencia nacional del paro </a>
+                        </li>
+                        <li>
+                            <a href="http://www.elconfidencial.com/economia/2013/05/01/toxo-y-mendez-reclaman-un-pacto-nacional-que-saque-a-espana-de-la-recesion-120040/"> Toxo y Méndez reclaman un pacto nacional que saque a España de la recesión </a>
+                        </li>
+                        <li>
+                            <a href="http://www.20minutos.es/noticia/1802099/0/manifestaciones/ccoo-ugt-sindicatos/1-mayo-dia-trabajo/"> Cientos de miles de españoles toman las calles el 1º de Mayo para protestar por el desempleo </a>
+                        </li>  
+                    </ul>
+                </article>
+                <br/>
+                <a href="http://www.dasani.com/">
+                    <img id="publicidad" src="imagenes/publicidad.jpeg"/>
+                </a>
+            </section>
+            <?php
+            require_once '../Auxiliar/AuxiliarComentario.php';
+            AuxiliarComentario::insertarComentarioInput();
+            AuxiliarComentario::insertarComentarios();
+            ?>
+        </section>
+        <footer>
+            <section id="footerIzquierda">
+                <p class="tituloNoticiaFooter">Contacto</p>
+                <p class="presentacionFooter"> Epic Agent S.L</p>
+                <address class="presentacionFooter">
+                    C/Cañaveral nº5
+                    Granada
+                </address>
+                <p class="presentacionFooter">(958) 402030</p>
+            </section>
+            <section id="footerDerecha">
+                <a href="../../Formulario/formulario.html">
+                    <img id="suscripcion" src="../../Portada/img/suscripiciones.png"/>
+                </a>
+            </section>
+        </footer>
+    </body>
+</html>

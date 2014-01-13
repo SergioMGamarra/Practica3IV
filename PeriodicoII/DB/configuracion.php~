@@ -1,0 +1,10 @@
+<?php
+define("DB_DSN", "mysql:host=localhost;dbname=Practica3IV"); 
+define("DB_USUARIO", "x76419942"); 
+define("DB_CONTRASENIA", "x76419942");  
+define("TABLA_USUARIO", "usuario"); 
+define("TABLA_SECCION", "seccion");
+define("TABLA_NOTICIA","noticia");
+define("TABLA_COMENTARIO","comentario");
+
+?>
