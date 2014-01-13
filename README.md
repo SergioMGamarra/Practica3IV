@@ -49,25 +49,20 @@ Se tendrán tres configuraciones para las máquinas virtuales sobre las que se r
 
 - Configuración 2
     Sistema Operativo: Ubuntu Server 13.04
-    RAM: 1024 MB
-    Núcleos: 1 precesador
+    RAM: 512 MB
+    Núcleos: 2 precesador
 
 - Configuración 3
     Sistema Operativo: Ubuntu Server 13.04
     RAM: 1024 MB
-    Núcleos: 2 precesador
+    Núcleos: 1 precesador
 
 - Configuración 4
     Sistema Operativo: Ubuntu Server 13.04
-    RAM: 2048 MB
-    Núcleos: 1 precesador
-
-- Configuración 5
-    Sistema Operativo: Ubuntu Server 13.04
-    RAM: 2048 MB
+    RAM: 1024 MB
     Núcleos: 2 precesador
 
-- Configuración 6
+- Configuración 5
     Sistema Operativo: Ubuntu Server 13.04
     RAM: 1024 MB
     Núcleos: 3 precesador
@@ -79,7 +74,11 @@ Para medir el rendimiento de cada máquina virtual lo que utilizaré será el be
     - Segunda medida: ab -c100 -n40000 http://172.16.80.130/periodicoII/Portada/portada/portada.php
     - Tercera medida: ab -c100 -n60000 http://172.16.80.130/periodicoII/Portada/portada/portada.php
     
-# Resultados:
+# Resultados
+
+Para los resultados de las pruebas se tendrán en cuenta dos cosas, el tiempo que invierte cada configuración en llevar a cabo todas las medidas, y además haré la media de las peticiones que se llevan a cabo por segundo, ya que es una medida muy significativa del rendimiento. Lo resultados son los siguientes:
+
+
 
 
 
