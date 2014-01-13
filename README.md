@@ -1,7 +1,7 @@
 Practica3IV
 ===========
 
-# Practica 3 IV Diseño de máquinas virtuales
+# Práctica 3 IV Diseño de máquinas virtuales
 # Sergio Muñoz Gamarra
 
 
@@ -11,7 +11,7 @@ Esta práctica la voy a basar en Ubuntu Server, Apache, MySQL y PHP. El contenid
 
 Las máquinas virtuales se crearán en VMWare Player, por una razón básica, VMWare nos permite la asignación de recursos de forma dinámica, por lo que primeramente le dedicaré recursos suficientes para que la instalación se lleve a cabo de forma rápida y después los reasignaré según las exigencias que vea necesarias para cada medida.
 
-Por otra parte utitilizaré Ubuntu Server 12.04 LTS de 64 bits.
+Por otra parte utitilizaré Ubuntu Server 13.04 de 64 bits.
 
 
 ## Preparación de las máquinas virtuales
@@ -36,3 +36,51 @@ Para montar la aplicación lo primero que haré será importar la base de datos 
 IMG: IMPORTBD.PNG
 
 Una vez importada la base de datos modificaremos los archivos de configuración de la base de datos para que nuestra aplicación pueda acceder de forma correcta a la base de datos. Una vez esta todo montado en la máquina virtual vamos a proceder al diseño y las pruebas de las máquinas virtuales
+
+
+## Configuración de las máquinas virtuales
+
+Se tendrán tres configuraciones para las máquinas virtuales sobre las que se realizará la prueba:
+
+- Configuración 1
+    Sistema Operativo: Ubuntu Server 13.04
+    RAM: 512 MB
+    Núcleos: 1 precesador
+
+- Configuración 2
+    Sistema Operativo: Ubuntu Server 13.04
+    RAM: 1024 MB
+    Núcleos: 1 precesador
+
+- Configuración 3
+    Sistema Operativo: Ubuntu Server 13.04
+    RAM: 1024 MB
+    Núcleos: 2 precesador
+
+- Configuración 4
+    Sistema Operativo: Ubuntu Server 13.04
+    RAM: 2048 MB
+    Núcleos: 1 precesador
+
+- Configuración 5
+    Sistema Operativo: Ubuntu Server 13.04
+    RAM: 2048 MB
+    Núcleos: 2 precesador
+
+- Configuración 6
+    Sistema Operativo: Ubuntu Server 13.04
+    RAM: 1024 MB
+    Núcleos: 3 precesador
+
+# Mediciones
+
+Para medir el rendimiento de cada máquina virtual lo que utilizaré será el benchmark de apache, que instalaré con el paquete de apache2-utils. Los comandos serán los siguientes:
+    - Primera medida: ab -c100 -n20000 http://172.16.80.130/periodicoII/Portada/portada/portada.php
+    - Segunda medida: ab -c100 -n40000 http://172.16.80.130/periodicoII/Portada/portada/portada.php
+    - Tercera medida: ab -c100 -n60000 http://172.16.80.130/periodicoII/Portada/portada/portada.php
+    
+# Resultados:
+
+
+
+    
