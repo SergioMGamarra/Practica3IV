@@ -100,6 +100,8 @@ A partir de esto resultados se han creado gráficas para visualizar de forma má
 
 -Tercera Medida
 
+![Medida3](https://github.com/SergioMGamarra/Practica3IV/blob/master/capturas/graficaMed3.png?raw=true)
+
 
 Como se puede ver las configuraciones más lentas son las que hemos configurado con un procesador, dentro de estas dos podemos ver como la que tiene menor RAM asignada es un poco mas lenta; por otra parte tenemos que la configuración más rápida es la quinta configuración, la que tiene asignada 3 procesadores. En la parte media las dos configuraciones con 2 núcleos obtienen buenos resultados respecto a las que tan sólo tienen asignados 1 núcleo, con resultados parecidos pero con opción 4 (la que tiene asiganada 1024MB) un poco más eficienciente que la que tiene asginada 512 MB.
 
@@ -107,7 +109,7 @@ Por otra parte vamos a presentar un dato que es muy significativo en cuanto a la
 
 - Medias de peticiones/segundo
 
-
+![Medida4](https://github.com/SergioMGamarra/Practica3IV/blob/master/capturas/GraficaMedida4.png?raw=true)
 
 Como se puede ver en la gráfica y coincidiendo con las conclusiones anteriores la configuración que más peticiones puede resolver por segundo es la configuración 5, mientras que la menos eficiente es la configuración que encontramos con un procesador y 512MB.
 
